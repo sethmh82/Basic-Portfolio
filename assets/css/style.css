@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Playfair+Display:400,700,900|Prata|Quicksand:300,400,500,700|Raleway:100,300,400,500,600,700,800,900');
+
+
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+a {
+	text-decoration:none;
+	color:#7F7F7F;
+	font-weight: 500;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#E7B67E;
+}
+
+img.soc:hover {
+   opacity: 0.5;
+   
+}
+
+body {
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	padding: 0px;
+}
+
+#header{
+	position: fixed;
+	top: 0px;
+	width: 100%; 
+	background: #b1d9d6; 
+	background: #eee9e4;
+	height: 45px;
+	border-bottom:1px solid #BBBBBB;
+}
+
+#navigation {
+	margin-left: 15px;
+	float:left;
+	width: 60%;
+	color: #0F1717;
+	font-family: 'Quicksand';
+	font-weight: 200;
+	font-size: 12px;
+}
+
+#logo {
+	text-align: center;
+	padding: 6px;
+	height: 33px;
+	float: left;
+	width: 30%;
+	font-family: 'Playfair Display';
+	font-weight: bold; 
+	font-size: 22px;
+	font-weight: 400;
+	background: #e6b57d;
+	color: #232323;
+	letter-spacing: -1px;
+	text-rendering: geometricPrecision;
+
+	vertical-align: middle;
+}
+
+h2 {
+	font-family: 'Prata';
+	letter-spacing: -1px;
+	font-size: 22px;
+	font-weight: 900; 
+	margin-bottom: 15px;
+	color: #202a33;
+}
+h1 {
+	font-family: 'Prata';
+	letter-spacing: -1px;
+	font-size: 32px;
+	font-weight: 900; 
+	color: #e6b57d;
+	border-bottom: 1px solid #a5a5a5;
+    width: 89%;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.contact {
+	font-family: Raleway;
+    font-size: 10px;
+    font-weight: 900;
+}
+img.contact-link {
+	font-size: 12px;
+	margin-top:4px;
+}
+
+.links {
+	margin-top:60px;
+	height:60px;
+	margin-left:0px;
+	width:30%;
+	color: #0F1717;
+	font-family: verdana;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+}
+
+.container {
+	background: #b1d9d6; 
+	background: #eee9e4;
+	height:900px;
+	width: 94%;
+	margin-top: 40px;
+	padding:3%;
+}
+
+.nav-button {
+	top: 6px;
+	position: relative;
+	width: auto;
+	padding: 10px;
+	margin-left: 15px;
+	float: left;
+}
+.txt1 {
+	color: #716756;;
+	font-family: 'Quicksand';
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 140%;
+	letter-spacing: 0.5px;
+}
+
+.port {
+	margin-bottom:15px;
+	border: 1px solid #888888;
+	z-index:100;
+}
+
+.col1 {
+	float: left;
+	width: 26%;
+	text-align: right;
+}
+
+.col1p {
+	float: left;
+	width: 30%;
+	text-align: right;
+}
+
+.col1b {
+	float: left;
+	width: 58%;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 26px;
+	padding-right: 25px;
+}
+
+.col2 {
+	margin-left: 20px;
+	margin-right: 5px;
+	padding-right: 25px;
+	float: left;
+	width: 30%;
+	border-right:0px solid #BBBBBB;	
+}
+
+.col3 {
+	float: left;
+	width: 25%;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+	height:28%;
+}
+
+.headerbar {
+	width:100%;
+}
+
+.social {
+	float: left;
+	width: 60px;
+	text-align: center;
+	height:60px;
+}
+
+.footer {
+	background-color: #202A33;
+	text-align: center;
+	
+	
+	letter-spacing: 0px;
+	position: fixed;
+	padding: 5px;
+	bottom: 0px;
+	width: 100%;
+	height: 90px;
+}
+
+.foot-txt {
+	padding-top:14px;
+	color: #e6b57d;
+	font-size: 14px;
+	font-family: 'Playfair Display';
+	font-weight:100;
+	letter-spacing: 0.5px;
+}
+
+.in-txt {
+	padding:8px;
+	font-size:14px;
+	width: 100%;
+	margin-bottom:20px;
+	border:1px solid #e7b67e;
+	color: #0F1717;
+	font-family: 'Quicksand';
+}
+
+.button {
+	padding:20px;
+	color: #0F1717;
+	font-family: 'Quicksand';
+	border:1px solid #969696;
+	background-color: #e7b67e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.containerBox {
+    position: relative;
+    display: inline-block;
+
+}
+.text-box {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+	
+}
+.text-box:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: bottom;
+
+}
+h4 {
+	display: inline-block;
+	font-size: 20px; /*or whatever you want*/
+	color: #FFF; 
+	background-color: rgba(32, 42, 51, 0.75);
+	width:100%;
+	height:24px;
+	padding-top:7px;
+	margin-left:-4px;
+	font-family: Quicksand;
+	letter-spacing:2px;
+	font-size: 12px;
+	margin-bottom: 15px;
+	
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-responsive{
+	border:1px solid #e6b57d;
+}
